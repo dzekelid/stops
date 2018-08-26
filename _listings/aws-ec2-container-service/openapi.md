@@ -1,0 +1,41 @@
+---
+swagger: "2.0"
+x-collection-name: AWS EC2 Container Service
+x-complete: 1
+info:
+  title: AWS EC2 Container Service API
+  version: 1.0.0
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /?Action=StopTask:
+    get:
+      summary: Stop Task
+      description: Stops a running task.
+      operationId: stopTask
+      x-api-path-slug: actionstoptask-get
+      parameters:
+      - in: query
+        name: cluster
+        description: The short name or full Amazon Resource Name (ARN) of the cluster
+          that hosts the task to stop
+        type: string
+      - in: query
+        name: reason
+        description: An optional message specified when a task is stopped
+        type: string
+      - in: query
+        name: task
+        description: The task ID or full Amazon Resource Name (ARN) entry of the task
+          to stop
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tasks
+---
