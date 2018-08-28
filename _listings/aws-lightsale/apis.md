@@ -11,11 +11,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Stops
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-lightsale/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Lightsale API - Stop Instance
+  x-api-slug: actionstopinstance-get
+  description: Stops a specific Amazon Lightsail instance that is currently running.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
+  humanURL: https://amazonlightsail.com/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-lightsale/actionstopinstance-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.lambda.api.gallery.streamdata.io

@@ -17,11 +17,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Stops
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-database-migration-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Database Migration Service API - Stop Replication Task
+  x-api-slug: actionstopreplicationtask-get
+  description: Stops the replication task.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png
+  humanURL: https://aws.amazon.com/dms/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Migrations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-database-migration-service/actionstopreplicationtask-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.data.pipeline.api.gallery.streamdata.io

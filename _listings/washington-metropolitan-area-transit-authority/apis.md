@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washi
 x-kinRank: "8"
 x-alexaRank: "24927"
 tags: Stops
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/washington-metropolitan-area-transit-authority/apis.md
 specificationVersion: "0.14"
 apis:

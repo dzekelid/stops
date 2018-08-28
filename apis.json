@@ -1,0 +1,337 @@
+{
+	"name": "Streadata.io API Gallery - Stops",
+	"description": "This is a repository of stops APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/stops.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://stops.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "511 Bay Area",
+			"x-api-slug": "511-bay-area",
+			"description": "511 is your free one-stop phone and web source for up-to-the minute Bay Area traffic, transit, rideshare, bicycling, and parking information.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_511_128x128_400x400.jpg",
+			"humanURL": "http://www.511.org/",
+			"baseURL": "https://api.511.org//transit",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/511-bay-area/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Washington Metropolitan Area Transit Authority",
+			"x-api-slug": "washington-metropolitan-area-transit-authority",
+			"description": "Official feed of Metro/WMATA, not monitored 24/7. Report emergencies to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg",
+			"humanURL": "http://wmata.com/",
+			"baseURL": "https://api.wmata.com//TrainPositions",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/washington-metropolitan-area-transit-authority/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2 Container Service",
+			"x-api-slug": "aws-ec2-container-service",
+			"description": "Amazon EC2 Container Service (ECS) is a highly scalable, high performance container management service that supports Docker containers and allows you to easily run applications on a managed cluster of Amazon EC2 instances. Amazon ECS eliminates the need for you to install, operate, and scale your own cluster management infrastructure. With simple API calls, you can launch and stop Docker-enabled applications, query the complete state of your cluster, and access many familiar features like security groups, Elastic Load Balancing, EBS volumes, and IAM roles. You can use Amazon ECS to schedule the placement of containers across your cluster based on your resource needs and availability requirements. You can also integrate your own scheduler or third-party schedulers to meet business or application specific requirements.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png",
+			"humanURL": "https://aws.amazon.com/ecs/",
+			"baseURL": ":///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-ec2-container-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Lightsale",
+			"x-api-slug": "aws-lightsale",
+			"description": "Amazon Lightsail is the easiest way to get started with AWS for developers who just need virtual private servers. Lightsail includes everything you need to launch your project quickly - a virtual machine, SSD-based storage, data transfer, DNS management, and a static IP - for a low, predictable price. You manage those Lightsail servers through the Lightsail console or by using the API or command-line interface (CLI).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png",
+			"humanURL": "https://amazonlightsail.com/",
+			"baseURL": ":///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-lightsale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Redshift",
+			"x-api-slug": "aws-redshift",
+			"description": "Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat makes it simple and cost-effective to analyze all your data using your existing business intelligence tools. Start small for $0.25 per hour with no commitments and scale to petabytes for $1,000 per terabyte per year, less than a tenth the cost of traditional solutions. Customers typically see 3x compression, reducing their costs to $333 per uncompressed terabyte per year.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png",
+			"humanURL": "https://aws.amazon.com/redshift/",
+			"baseURL": ":///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-redshift/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Database Migration Service",
+			"x-api-slug": "aws-database-migration-service",
+			"description": "AWS Database Migration Service helps you migrate databases to AWS easily and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from most widely used commercial and open-source databases. The service supports homogenous migrations such as Oracle to Oracle, as well as heterogeneous migrations between different database platforms, such as Oracle to Amazon Aurora or Microsoft SQL Server to MySQL. It also allows you to stream data to Amazon Redshift from any of the supported sources including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, SAP ASE and SQL Server, enabling consolidation and easy analysis of data in the petabyte-scale data warehouse. AWS Database Migration Service can also be used for continuous data replication with high-availability.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png",
+			"humanURL": "https://aws.amazon.com/dms/",
+			"baseURL": ":///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-database-migration-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Config",
+			"x-api-slug": "aws-config",
+			"description": "AWS Config is a fully managed service that provides you with an AWS resource inventory, configuration history, and configuration change notifications to enable security and governance. Config Rules enables you to create rules that automatically check the configuration of AWS resources recorded by AWS Config.With AWS Config, you can discover existing and deleted AWS resources, determine your overall compliance against rules, and dive into configuration details of a resource at any point in time. These capabilities enable compliance auditing, security analysis, resource change tracking, and troubleshooting.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png",
+			"humanURL": "https://aws.amazon.com/config/",
+			"baseURL": ":///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-config/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS OpsWorks",
+			"x-api-slug": "aws-opsworks",
+			"description": "AWS OpsWorks is a configuration management service that uses Chef, an automation platform that treats server configurations as code. OpsWorks uses Chef to automate how servers are configured, deployed, and managed across your Amazon Elastic Compute Cloud (Amazon EC2) instances or on-premises compute environments. OpsWorks has two offerings, AWS Opsworks for Chef Automate, and AWS OpsWorks Stacks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png",
+			"humanURL": "https://aws.amazon.com/opsworks/",
+			"baseURL": ":///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-opsworks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Inspector",
+			"x-api-slug": "aws-inspector",
+			"description": "Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. Amazon Inspector automatically assesses applications for vulnerabilities or deviations from best practices. After performing an assessment, Amazon Inspector produces a detailed list of security findings prioritized by level of severity.To help you get started quickly, Amazon Inspector includes a knowledge base of hundreds of rules mapped to common security best practices and vulnerability definitions. Examples of built-in rules include checking for remote root login being enabled, or vulnerable software versions installed. These rules are regularly updated by AWS security researchers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png",
+			"humanURL": "https://aws.amazon.com/inspector/",
+			"baseURL": ":///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-inspector/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Kinesis Analytics",
+			"x-api-slug": "aws-kinesis-analytics",
+			"description": "Amazon Kinesis Analytics is the easiest way to process streaming data in real time with standard SQL without having to learn new programming languages or processing frameworks. Amazon Kinesis Analytics enables you to create and run SQL queries on streaming data so that you can gain actionable insights and respond to your business and customer needs promptly.Amazon Kinesis Analytics takes care of everything required to run your queries continuously and scales automatically to match the volume and throughput rate of your incoming data. With Amazon Kinesis Analytics, you only pay for the resources your queries consume. There is no minimum fee or setup cost.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisAnalytics.png",
+			"humanURL": "https://aws.amazon.com/kinesis/analytics/",
+			"baseURL": ":///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-kinesis-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Cognito",
+			"x-api-slug": "aws-cognito",
+			"description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. With Amazon Cognito, you also have the options to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. In addition, Amazon Cognito enables you to save data locally on users devices, allowing your applications to work even when the devices are offline. You can then synchronize data across users devices so that their app experience remains consistent regardless of the device they use. With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png",
+			"humanURL": "https://aws.amazon.com/cognito/",
+			"baseURL": "https:///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-cognito/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Step Functions",
+			"x-api-slug": "aws-step-functions",
+			"description": "AWS Step Functions makes it easy to coordinate the components of distributed applications and microservices using visual workflows. Building applications from individual components that each perform a discrete function lets you scale and change applications quickly. Step Functions is a reliable way to coordinate components and step through the functions of your application. Step Functions provides a graphical console to arrange and visualize the components of your application as a series of steps. This makes it simple to build and run multi-step applications. Step Functions automatically triggers and tracks each step, and retries when there are errors, so your application executes in order and as expected. Step Functions logs the state of each step, so when things do go wrong, you can diagnose and debug problems quickly. You can change and add steps without even writing code, so you can easily evolve your application and innovate faster.AWS Step Functions manages the operations and underlying infrastructure for you to help ensure your application is available at any scale.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png",
+			"humanURL": "https://aws.amazon.com/step-functions/",
+			"baseURL": ":///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-step-functions/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS WorkSpaces",
+			"x-api-slug": "aws-workspaces",
+			"description": "Amazon WorkSpaces is a fully managed, secure desktop computing service which runs on the AWS cloud. Amazon WorkSpaces allows you to easily provision cloud-based virtual desktops and provide your users access to the documents, applications, and resources they need from any supported device, including Windows and Mac computers, Chromebooks, iPads, Fire tablets, Android tablets, and Chrome and Firefox web browsers. With just a few clicks in the AWS Management Console, you can deploy high-quality cloud desktops for any number of users. With Amazon WorkSpaces, you pay either monthly or hourly just for the Amazon WorkSpaces you launch, which helps you save money when compared to traditional desktops and on-premises Virtual Desktop Infrastructure (VDI) solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkSpaces.png",
+			"humanURL": "https://aws.amazon.com/workspaces/",
+			"baseURL": ":///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-workspaces/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS AppStream",
+			"x-api-slug": "aws-appstream",
+			"description": "Amazon AppStream is a fully managed, secure application streaming service that allows you to stream desktop applications from AWS to any device running a web browser, without rewriting them. Amazon AppStream 2.0 provides users instant-on access to the applications they need, and a responsive, fluid user experience on the device of their choice.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/appstream2_try_it_now_2_big.png",
+			"humanURL": "https://aws.amazon.com/appstream2/",
+			"baseURL": ":///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-appstream/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Public Transport Victoria Timetable",
+			"x-api-slug": "public-transport-victoria-timetable",
+			"description": "The PTV Timetable API provides direct access to Public Transport Victoria&rsquo;s public transport timetable data. The API returns scheduled timetable, route and stop data for all metropolitan and regional train, tram and bus services in Victoria, including Night Network(Night Train and Night Tram data are included in metropolitan train and tram services data, respectively, whereas Night Bus is a separate route type). The API also returns real-time data for metropolitan train, tram and bus services (where this data is made available to PTV), as well as disruption information, stop facility information, and access to myki ticket outlet data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/public-transport-victoria.png",
+			"humanURL": "https://www.ptv.vic.gov.au/about-ptv/data-and-reports/datasets/ptv-timetable-api/",
+			"baseURL": "https://timetableapi.ptv.vic.gov.au//",
+			"tags": "Stops",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/public-transport-victoria-timetable/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Stops",
+	"include": [
+		{
+			"name": "511 Bay Area",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/511-bay-area/apis.yaml"
+		},
+		{
+			"name": "Washington Metropolitan Area Transit Authority",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/washington-metropolitan-area-transit-authority/apis.yaml"
+		},
+		{
+			"name": "AWS EC2 Container Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-ec2-container-service/apis.yaml"
+		},
+		{
+			"name": "AWS Lightsale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-lightsale/apis.yaml"
+		},
+		{
+			"name": "AWS Redshift",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-redshift/apis.yaml"
+		},
+		{
+			"name": "AWS Database Migration Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-database-migration-service/apis.yaml"
+		},
+		{
+			"name": "AWS Config",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-config/apis.yaml"
+		},
+		{
+			"name": "AWS OpsWorks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-opsworks/apis.yaml"
+		},
+		{
+			"name": "AWS Inspector",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-inspector/apis.yaml"
+		},
+		{
+			"name": "AWS Kinesis Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-kinesis-analytics/apis.yaml"
+		},
+		{
+			"name": "AWS Cognito",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-cognito/apis.yaml"
+		},
+		{
+			"name": "AWS Step Functions",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-step-functions/apis.yaml"
+		},
+		{
+			"name": "AWS WorkSpaces",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-workspaces/apis.yaml"
+		},
+		{
+			"name": "AWS AppStream",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-appstream/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Public Transport Victoria Timetable",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stops/master/_listings/public-transport-victoria-timetable/apis.yaml"
+		}
+	]
+}
